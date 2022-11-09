@@ -312,17 +312,17 @@ span {
 }
 
 .slide:nth-of-type(2) {
-  background: url("louis.jpg");
+  background-image: url("louis.jpg");
   background-size: cover;
 }
 
 .slide:nth-of-type(3) {
-  background: url("k.jpg");
+  background-image: url("k.jpg");
   background-size: cover;
 }
 
 .slide:nth-of-type(4) {
-    background: url("fille.jpg");
+    background-image: url("fille.jpg");
   background-size: cover;
     
 }
@@ -332,12 +332,12 @@ span {
 }
 
 .slide:nth-of-type(6) {
-  background: url("color.jpg");
+  background-image: url("color.jpg");
   background-size: cover;
 }
 
 .slide:nth-of-type(7) {
-  background: url("tomaz.png");
+  background-image: url("tomaz.png");
   background-size: cover;
 }
 .slide_buttons {
