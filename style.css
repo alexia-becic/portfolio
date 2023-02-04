@@ -786,4 +786,12 @@ a.plus {
 .dark {
     color: #5384a3;
 }
+
+
+.lien {
+    display: contents;
+}
+
+.cdm {
+    border-radius: 7px 0 0 7px;
 }
