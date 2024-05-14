@@ -52,6 +52,10 @@ body.n-flou {
 .no-link:hover {
     stroke: transparent;
 }
+.jour{
+	fill: withe opacity 0.8;
+}
+
 .jour:hover {
     stroke: white;
     stroke-width: 5px;
