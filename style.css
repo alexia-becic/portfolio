@@ -704,7 +704,8 @@ div.gal {
 }
 
 footer {
-	width: 100%;
 	text-align: center;
-	color: withe;
+	color: white;
+	bottom:0;
+	position: relative;
 }
