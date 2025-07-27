@@ -101,12 +101,14 @@
 </div>
 
 <script type="text/javascript">
-    var dialLines = document.getElementsByClassName('diallines');
-var clockEl = document.getElementsByClassName('clock')[0];
+    var clockEl = document.getElementsByClassName('clock')[0];
 
-for (var i = 1; i < 60; i++) {
-  clockEl.innerHTML += "<div class='diallines'></div>";
-  dialLines[i].style.transform = "rotate(" + 6 * i + "deg)";
+// Crée et place les 60 lignes
+for (var i = 0; i < 60; i++) {
+  let line = document.createElement("div");
+  line.className = "diallines";
+  line.style.transform = "rotate(" + 6 * i + "deg)";
+  clockEl.appendChild(line);
 }
 
 function clock() {
